@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 90% !important;
+    }
+}
+#contact {
+
+    border-radius: 0 !important;
+}
+#reservation {
+    margin-top: 0 !important; 
+}
