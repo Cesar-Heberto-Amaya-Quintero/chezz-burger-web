@@ -1,6 +1,10 @@
+.indexFont{
+  font-family: "Dangrek", sans-serif;
+  font-size: 150px
+}
 .carousel-control-next, .carousel-control-prev {
     margin: -11%;
-    height: 143%;
+    height: 135%;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     transform: scale(1.5);
@@ -12,41 +16,100 @@
     transform: translateY(-40%);
 }
 
-.u-section-6 .u-image-1_1 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Boneless.jpeg");
-    filter:brightness(90%) contrast(130%) saturate(50%) brightness(150%);
+.parrafo{
+  color: white;
+}
+
+.footer {
+  color: #ffffff !important;
+  background-color: #1a1a1a !important;
+  
+}
+.u-text-palette-2-light-1, li.active > a.u-button-style.u-text-palette-2-light-1, li.active > a.u-button-style.u-text-palette-2-light-1[class*="u-border-"], a.u-button-style.u-text-palette-2-light-1, a.u-button-style.u-text-palette-2-light-1[class*="u-border-"] {
+  color: #F8AF3C !important;
+}
+/* ExtrasCSS */
+.u-section-6 .u-image-1_35 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/extras/buffalo.jpg");
+    filter:brightness(100%) contrast(120%) saturate(100%) brightness(120%);
     background-position: 50% 50%;
+    height: 280px;
   }
+.u-section-6 .u-image-1_36{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/extras/bbq.jpg");
+    filter:brightness(100%) contrast(120%) saturate(100%) brightness(120%);
+    background-position: 10% 0%;
+    height: 280px;
+  }
+.u-section-6 .u-image-1_37 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/extras/ranch.jpg");
+    filter:brightness(100%) contrast(120%) saturate(100%) brightness(120%);
+    background-position: 50% 50%;
+    height: 280px;
+  }
+.u-section-6 .u-image-1_38 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/extras/cheddar.jpg");
+    filter:brightness(100%) contrast(120%) saturate(90%) brightness(120%);
+    background-position: 50% 50%;
+    height: 280px;
+  }
+
+ .u-black,
+  .u-body.u-black,
+  section.u-black:before,
+  .u-black > .u-container-layout:before,
+  .u-black > .u-inner-container-layout:before,
+  .u-black.u-sidenav:before,
+  .u-container-layout.u-container-layout.u-black:before,
+  .u-table-alt-black tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #000000;
+    height: 280px;
+  }
+
+  .u-section-6 .u-repeater-1 {
+    min-height: 500px;
+}
+
+/* ENTRADAS */
+
+.u-section-6 .u-image-1_1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Boneless.jpeg");
+  filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+  background-position: 50% 50%;
+}
 
 .u-section-6 .u-image-1_2 {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Hot-wings1.jpeg");
-    filter:brightness(90%) contrast(130%) saturate(50%) brightness(150%);
+    filter:brightness(70%) contrast(130%) saturate(69%) brightness(150%);
     background-position: 50% 50%;
   }
 
 .u-section-6 .u-image-1_3 {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Papas_gajo1.jpeg");
-    filter:brightness(70%) contrast(130%) saturate(30%) brightness(150%);
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
     background-position: 50% 50%;
   }
 
 .u-section-6 .u-image-1_4 {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Papas-Francesa.jpeg");
-    filter:brightness(70%) contrast(130%) saturate(30%) brightness(150%);
+    filter:brightness(65%) contrast(130%) saturate(50%) brightness(150%);
     background-position: 50% 50%;
   }
 
 .u-section-6 .u-image-1_5 {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Aros_cebolla.jpeg");
-    filter:brightness(70%) contrast(130%) saturate(30%) brightness(150%);
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
     background-position: 50% 50%;
   }
 
 .u-section-6 .u-image-1_6 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Papas-Francesa.jpeg");
-    filter:brightness(70%) contrast(130%) saturate(30%) brightness(150%);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/nuggets.png");
+    filter:brightness(80%) contrast(130%) saturate(60%) brightness(150%);
     background-position: 50% 50%;
   }
+
+  /* HAMBURGUESAS */
 
 .u-section-6 .u-image-1_7 {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Chezz-Burger-con-papas.jpeg");
@@ -95,3 +158,127 @@
     filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
     background-position: 50% 50%;
   }
+
+  .u-section-6 .u-image-1_15 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Champiñón\ Burger\ con\ papas.jpeg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_16 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Chicken\ Burger\ con\ papas.jpeg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_17 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Spicy\ Chicken\ Burger\ con\ papas.jpeg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_18 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Phily\ Burger\ con\ papas.jpeg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_19 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/3.jpg");
+    filter:brightness(70%) contrast(130%) saturate(60%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_20 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/52204426-04d6-14b0-d5fb-3abb6796bce3.jpg");
+    filter:brightness(70%) contrast(130%) saturate(60%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_21 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/dff7.jpg");
+    filter:brightness(70%) contrast(130%) saturate(60%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_22 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/rtrtrt.jpg");
+    filter:brightness(70%) contrast(130%) saturate(60%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  /* BEBIDAS */
+
+  .u-section-6 .u-image-1_23 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/Coca_1.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_24 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/te_negro.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_25 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/coca_cola.jpg");
+    
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_26 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/fresca.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_27 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/sprite.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_28 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/fanta_fresa.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_29 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/fanta_naranja.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_30 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/fanta_uva.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_31 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/ciel.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_32 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/te_jazmin.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_33 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/topo_chico.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+  .u-section-6 .u-image-1_34 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/bebidas/mundet.jpg");
+    filter:brightness(70%) contrast(130%) saturate(50%) brightness(150%);
+    background-position: 50% 50%;
+  }
+
+

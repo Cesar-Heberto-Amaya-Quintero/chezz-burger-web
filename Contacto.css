@@ -1,12 +1,18 @@
-@media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 90% !important;
-    }
-}
-#contact {
 
+#contact {
+    margin-left: 0 !important;
     border-radius: 0 !important;
+    
 }
 #reservation {
-    margin-top: 0 !important; 
+    margin-top: 0 !important;
+
+}
+.message{
+    height: 175px;
+
+}
+.phone{
+    height: 175px;
+
 }
